@@ -1,1 +1,11 @@
+<<<<<<< HEAD
+Hello
+World
+Kkkk
+=======
+<<<<<<< HEAD
+The stupid text 
+Reading stupid text
+=======
 The master stupid text 
+
