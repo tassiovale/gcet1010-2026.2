@@ -1,1 +1,6 @@
-Hello
+<<<<<<< HEAD
+The stupid text 
+Reading stupid text
+=======
+The master stupid text 
+>>>>>>> af451e961bed8635720c47a560cf215460f216b5
