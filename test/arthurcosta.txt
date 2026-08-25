@@ -2,4 +2,8 @@ testando mudanças
 
 Mudei trouxa;)
 
+<<<<<<< HEAD
 Juventus pra toda vida
+=======
+João presidente da torcida jovem do Santos de Irece
+>>>>>>> 07c5a432b8df07b735ade1b50f39c6294f8b5d48
