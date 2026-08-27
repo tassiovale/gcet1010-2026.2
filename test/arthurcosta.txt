@@ -6,3 +6,5 @@ João presidente da torcida jovem do Santos de Irecê
 
 partiu RU
 
+Fazendo alterações visando perceber a mudança na branch criada - feature/arthurcosta.
+
