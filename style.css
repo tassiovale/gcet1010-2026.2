@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.auth-container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-card {
+    background: #1e293b;
+    padding: 2.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.auth-card h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #38bdf8;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.input-group {
+    margin-bottom: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    background: #0284c7;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background: #0ea5e9;
+}
+
+.error-message {
+    background: #7f1d1d;
+    color: #fca5a5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.footer-link a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}

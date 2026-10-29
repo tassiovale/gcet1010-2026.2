@@ -1,5 +1,0 @@
-testando mudanças
-
-
-Fazendo alterações visando perceber a mudança na branch criada - feature/arthurcosta.
-

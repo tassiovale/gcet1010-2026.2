@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questify - Criar Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <h2>Questify</h2>
+            <p class="subtitle">Crie sua Quest</p>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="title">Título</label>
+                    <input type="text" id="title" placeholder="Digite o título da sua quest">
+                </div>
+                
+                <div class="input-group">
+                    <label for="description">Descrição</label>
+                    <input type="text" id="description" placeholder="Digite a descrição da sua quest">
+                </div>
+
+                <div class="input-group">
+                    <label for="difficulty">Selecione a dificuldade</label>
+                    <select id="difficulty" name="difficulty">
+                        <option value="easy">Fácil</option>
+                        <option value="medium">Médio</option>
+                        <option value="hard">Difícil</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="deadline">Prazo</label>
+                    <input type="date" id="deadline" placeholder="Digite o prazo da sua quest">
+                </div>
+
+                <div id="errorMessage" class="error-message hidden"></div>
+                
+                <button type="submit" class="btn-primary">Criar</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
